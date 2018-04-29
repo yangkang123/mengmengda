@@ -43,8 +43,8 @@
         </div> -->
         
         <label class="label">地图选择:</label>
-          <input type="radio" id="erangel" value="erangel" v-model="mapType"><label for="erangel">海岛地图</label>
-          <input type="radio" id="miramar" value="miramar" v-model="mapType"><label for="miramar">沙漠地图</label>
+          <input type="radio" id="erangel" value="erangel" v-model="mapType"><label for="erangel">孤岛惊魂</label>
+          <input type="radio" id="miramar" value="miramar" v-model="mapType"><label for="miramar">沙漠迷城</label>
           <br><br>
 
         <label class="label">地图设置:</label>
@@ -79,33 +79,33 @@
           <input type="checkbox" id="showHighST" v-model="showHighST"><label for="showHighST">高倍镜</label>
           <br>
 
-          <input type="checkbox" id="showARCnFH" v-model="showARCnFH"><label for="showARCnFH">步枪头</label>
-          <input type="checkbox" id="showARSuppressor" v-model="showARSuppressor"><label for="showARSuppressor">步消音</label>
+          <input type="checkbox" id="showARCnFH" v-model="showARCnFH"><label for="showARCnFH">步枪枪头</label>
+          <input type="checkbox" id="showARSuppressor" v-model="showARSuppressor"><label for="showARSuppressor">步枪消音</label>
           <input type="checkbox" id="showARExtended" v-model="showARExtended"><label for="showARExtended">步扩容</label>
           <input type="checkbox" id="showARStock" v-model="showARStock"><label for="showARStock">步枪托</label>
           <br>
 
-          <input type="checkbox" id="showSRFlashHider" v-model="showSRFlashHider"><label for="showSRFlashHider">狙消焰</label>
-          <input type="checkbox" id="showSRSuppressor" v-model="showSRSuppressor"><label for="showSRSuppressor">狙消音</label>
-          <input type="checkbox" id="showSRExtended" v-model="showSRExtended"><label for="showSRExtended">狙扩容</label>
-          <input type="checkbox" id="showSRStock" v-model="showSRStock"><label for="showSRStock">狙枪托</label>
+          <input type="checkbox" id="showSRFlashHider" v-model="showSRFlashHider"><label for="showSRFlashHider">狙击消焰</label>
+          <input type="checkbox" id="showSRSuppressor" v-model="showSRSuppressor"><label for="showSRSuppressor">狙击消音</label>
+          <input type="checkbox" id="showSRExtended" v-model="showSRExtended"><label for="showSRExtended">狙击扩容</label>
+          <input type="checkbox" id="showSRStock" v-model="showSRStock"><label for="showSRStock">狙击枪托</label>
           <br><br>
 
-          <input type="checkbox" id="showM16A4" v-model="showM16A4"><label for="showM16A4">Ｍ１６</label>
-          <input type="checkbox" id="showSCAR" v-model="showSCAR"><label for="showSCAR">Ｓｃａｒ</label>
-          <input type="checkbox" id="showHK416" v-model="showHK416"><label for="showHK416">Ｍ４１６</label>
-          <input type="checkbox" id="showAK47" v-model="showAK47"><label for="showAK47">Ａｋｍ</label>
+          <input type="checkbox" id="showM16A4" v-model="showM16A4"><label for="showM16A4">M16</label>
+          <input type="checkbox" id="showSCAR" v-model="showSCAR"><label for="showSCAR">SCAR</label>
+          <input type="checkbox" id="showHK416" v-model="showHK416"><label for="showHK416">M416</label>
+          <input type="checkbox" id="showAK47" v-model="showAK47"><label for="showAK47">AK47</label>
           <br>
 
-          <input type="checkbox" id="showMini14" v-model="showMini14"><label for="showMini14">Ｍｉｎｉ</label>
+          <input type="checkbox" id="showMini14" v-model="showMini14"><label for="showMini14">MINI</label>
           <input type="checkbox" id="showSKS" v-model="showSKS"><label for="showSKS">Ｓｋｓ</label>
-          <input type="checkbox" id="showKar98k" v-model="showKar98k"><label for="showKar98k">９８ｋ　</label>
+          <input type="checkbox" id="showKar98k" v-model="showKar98k"><label for="showKar98k">98K　</label>
           <input type="checkbox" id="showPan" v-model="showPan"><label for="showPan">平底锅</label>
 
         <hr>
         <label class="label">刷新率:</label>
-          <a class="button is-small" @click="setFPS(5)">fps5</a>
-          <a class="button is-small" @click="setFPS(15)">fps15</a>
+          <a class="button is-small" @click="setFPS(120)">fps120</a>
+          <a class="button is-small" @click="setFPS(90)">fps90</a>
           <a class="button is-small" @click="setFPS(30)">fps30</a>
           <a class="button is-small" @click="setFPS(60)">fps60</a>
           <br><br>
